@@ -1,0 +1,70 @@
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 30em;
+    padding-bottom: 130px;
+}
+
+.close {
+    float: right;
+    display: inline-block;
+    margin-top: -4px;
+    vertical-align: middle;
+    font-size: 2em;
+}
+
+.close:enabled {
+    outline: none;
+}
+
+
+
+.input-group-text {
+    display: inline-block;
+}
+
+.list-group {
+    min-width: 100%;
+    display: inline-block;
+}
+
+.list-group-item {
+    font-size: 1.2em;
+    padding: 0 10px 0 0;
+    text-align: left;
+}
+
+.todoText {
+    margin-bottom: 0;
+    margin-left: 15px;
+    padding: 0;
+    display: inline-block;
+    height: 32px;
+    width: 80%;
+    vertical-align: middle;
+}
+
+[isChecked="true"] {
+    transition: all ease-out 0.3s;
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+[id="delButton"] {
+    margin-top: 0.5em;
+    float: right;
+
+}
+
+.editArea {
+    margin: 0 0 0 15px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.card {
+    display: block;
+}
+

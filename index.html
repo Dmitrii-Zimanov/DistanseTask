@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo</title>
+</head>
+<body>
+    <div class="container">
+        <h1>todo</h1>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <button class="btn btn btn-outline-dark" type="submit" id="button-addon1">add</button>
+            </div>
+            <input type="text" id="newTodoValue"  class="form-control" placeholder="what needs to be done?" aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+        <ul class="list-group" id="todoList">
+        </ul>
+    </div>
+    <div class="card text-center fixed-bottom">
+        <div class="card-footer text-muted">
+            Double click to edit todo. Then press "enter" to save changes. Click elsewhere will cancel changes.
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
